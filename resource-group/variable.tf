@@ -57,12 +57,6 @@ variable "tags" {
   type        = map(any)
 }
 
-# Diagnostic Settings Variables
-variable "log_analytics_workspace_id" {
-  description = "The ID of the Log Analytics Workspace for diagnostic settings"
-  type        = string
-}
-
 variable "name" {
   description = "allow engineer to replace naming convention, ideally this should not be set."
   default = ""
